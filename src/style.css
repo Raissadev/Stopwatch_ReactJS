@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    width: 100%;
+    height:100vh;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+.titleContent{
+    text-align: left;
+    width:90%;
+    margin-bottom: 5%;
+}
+.title{
+    color: #f0f0f0;
+    font-size: 21px;
+    font-weight: 400;
+}
+.contentStopwatch{
+    background-color: #27282c;
+    box-shadow: 0 3px 20px #060505;
+    border-radius: 50%;
+    height: 220px;
+    width:220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+    position: relative;
+}
+.timer{
+    color: #fff;
+    font-size: 55px;
+}
+.timer::after{
+    content: '';
+    height: 90%;
+    width: 90%;
+    border: 5px solid #9563ed;
+    position: absolute;
+    border-radius: 50%;
+    top: 2.5%;
+    left: 2.5%;
+}
+.contentStopwatch:hover .timer::after{
+    border-color: pink;
+    transition: all 1s;
+}
+.areaBtn{
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+    display: flex;
+}
+.botao{
+    background-color: #27282c;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px #060505;
+    height:45px;
+    width:120px;
+    margin:0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao span{
+    color:#fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+.botao:hover{
+    background-color: #9563ed;
+    transition: all 0.50s;
+}
+
+@media screen and (min-width: 780px){
+    body{
+        width: 680px;
+        margin: 0 auto;
+    }
+}
