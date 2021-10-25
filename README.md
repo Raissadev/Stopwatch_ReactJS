@@ -8,9 +8,6 @@
   <li>JavaScript</li>
 </ul>
 <h3>Back-end:</h3>
-<ul>
-  <li>Database: Firebase</li>
-</ul>
 <h3>Stacks:</h3>
 <ul>
   <li>ReactJS</li>
