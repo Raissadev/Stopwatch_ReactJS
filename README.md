@@ -1,6 +1,6 @@
 # Stopwatch
 <h2>Sobre o Projeto</h2>
-<p>Crônometro simples e atraente. 😊</p>
+<p>Crônometro simples e atraente.</p>
 
 <ul>
   <li>Lenguages:</li>
