@@ -1,14 +1,19 @@
 # Stopwatch
 <h2>Sobre o Projeto</h2>
 <p>Crônometro simples e atraente. 😊</p>
-<h3>Front-end:</h3>
+
 <ul>
-  <li>JavaScript</li>
-</ul>
-<h3>Back-end:</h3>
-<h3>Stacks:</h3>
-<ul>
-  <li>ReactJS</li>
+  <li>Lenguages:</li>
+  <i>JavaScript</i>
+  
+  <li>Stack:</li>
+  <i>ReactJS</i>
+  
+  <li>Style:</li>
+  <i>Cascading Style Sheets</i>
+  
+  <li>Markup Language:</li>
+  <i>HTML</i>
 </ul>
 
 ![Design sem nome](https://user-images.githubusercontent.com/82960240/138768983-15bc7a2f-35c4-43c2-b404-285835a3d24a.gif)
